@@ -41,6 +41,8 @@ group :development, :test do
   gem 'faker'
   gem 'shoulda'
   gem 'poltergeist', '~> 1.14.0'
+  # https://github.com/colszowka/phantomjs-gem
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
 end
 
 group :development do
